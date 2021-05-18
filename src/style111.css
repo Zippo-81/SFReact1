@@ -1,0 +1,194 @@
+
+
+
+
+
+
+
+
+@media (max-width: 1199px) {
+  .about__wrap {
+    padding: 81px 100px 20px 100px; }
+  .about__img {
+    margin-bottom: 50px; }
+  .about__title {
+    font-size: 45px; }
+  .about__text {
+    font-size: 16px; }
+  .contacts__wrap {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .contacts__title {
+    font-size: 45px; }
+  .team__wrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .team__title {
+    font-size: 30px;
+    margin-bottom: 30px; }
+  .team__item {
+    padding-bottom: 30px; }
+  .faq__wrap {
+    padding-top: 100px;
+    padding-bottom: 120px; }
+  .faq__expandedBlock {
+    padding-left: 50px;
+    padding-right: 50px; }
+  .faq__title {
+    font-size: 45px; }
+  .faq__description {
+    font-size: 16px; }
+  .faqBlock__button {
+    font-size: 16px; }
+  .faqBlock__text {
+    font-size: 16px; }
+  .footer__wrap {
+    padding-top: 30px;
+    padding-bottom: 30px; } }
+
+@media (max-width: 768px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 99; }
+    .header__wrap--mobile {
+      flex-direction: column;
+      position: absolute;
+      top: -1000px;
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.95);
+      min-height: 100vh;
+      overflow: hidden; }
+    .header__auth {
+      position: absolute;
+      bottom: 120px;
+      left: 50%;
+      transform: translateX(-50%); }
+    .header__nav {
+      position: absolute;
+      top: 20%;
+      left: 0;
+      right: 0; }
+  .humburger {
+    display: block; }
+    .humburger--active span {
+      display: none; }
+    .humburger--active::after {
+      transform: rotate(45deg);
+      bottom: 6px;
+      transition: all .2s ease; }
+    .humburger--active::before {
+      transform: rotate(-45deg);
+      top: 5px;
+      transition: all .2s ease; }
+  .menu__list {
+    display: block;
+    width: 90%;
+    text-align: center; }
+  .menu__item {
+    margin-right: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #DCE0ED; }
+  .menu__item:last-child {
+    border-bottom: none; }
+  .menu--show {
+    top: 93px;
+    transition: all .7s ease; }
+  .about__wrap {
+    padding: 81px 40px 40px 40px; }
+  .about__text {
+    text-align: center; }
+  .contacts__mailBlock {
+    padding-right: 20px; }
+  .contacts__phoneBlock {
+    padding-left: 20px; }
+  .faq__expandedBlock {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .faq__title {
+    font-size: 32px; }
+  .faq__description {
+    font-size: 16px; }
+  .faqBlock__button {
+    font-size: 14px; }
+  .faqBlock__text {
+    font-size: 14px; } }
+
+@media (max-width: 576px) {
+  .contacts__block {
+    flex-direction: column; }
+  .contacts__mailBlock {
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 1px solid #C8C8CF; }
+  .contacts__phoneBlock {
+    padding-left: 0; }
+  .team__wrap {
+    padding-left: 45px;
+    padding-right: 45px; }
+  .team__list {
+    justify-content: space-between; }
+  .team__item {
+    margin: 10px;
+    flex-basis: 40%;
+    padding-bottom: 30px; }
+  .team__name {
+    font-size: 16px;
+    margin-top: 15px; }
+  .team__position {
+    font-size: 12px; } }
+
+@media (max-width: 420px) {
+  .about__img {
+    margin-bottom: 40px; }
+  .about__title {
+    font-size: 32px;
+    margin-bottom: 10px; }
+  .about__text {
+    margin: 0; }
+  .about__text {
+    font-size: 16px; }
+  .contacts__wrap {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .contacts__title {
+    font-size: 24px;
+    margin-bottom: 25px; }
+  .contacts__mailBlock {
+    border-bottom: none; }
+  .contacts__name {
+    margin-top: 0;
+    margin-bottom: 8px; }
+  .contacts__mail {
+    margin-bottom: 25px; }
+  .team__title {
+    font-size: 24px; }
+  .team__item {
+    margin: 0;
+    flex-basis: 45%; }
+  .team__img {
+    max-width: 80px; }
+  .faq__wrap {
+    padding-bottom: 50px; }
+  .faq__title {
+    margin-top: 40px; }
+  .faq__description {
+    margin-top: 15px; }
+  .faq__expandedBlock {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 30px; }
+  .footer__wrap {
+    flex-direction: column;
+    align-items: flex-start; }
+  .footer__copyright {
+    margin-bottom: 17px; } }
+
+
